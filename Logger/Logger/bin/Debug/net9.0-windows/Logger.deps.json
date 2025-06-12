@@ -1,0 +1,843 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Logger/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.6",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.6",
+          "System.IO.Ports": "9.0.6",
+          "System.Text.Json": "9.0.6"
+        },
+        "runtime": {
+          "Logger.dll": {}
+        }
+      },
+      "Microsoft.Data.Sqlite.Core/9.0.6": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.10"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Data.Sqlite.dll": {
+            "assemblyVersion": "9.0.6.0",
+            "fileVersion": "9.0.625.26607"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore/9.0.6": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "9.0.6",
+          "Microsoft.EntityFrameworkCore.Analyzers": "9.0.6",
+          "Microsoft.Extensions.Caching.Memory": "9.0.6",
+          "Microsoft.Extensions.Logging": "9.0.6"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "9.0.6.0",
+            "fileVersion": "9.0.625.26607"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/9.0.6": {
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "9.0.6.0",
+            "fileVersion": "9.0.625.26607"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Analyzers/9.0.6": {},
+      "Microsoft.EntityFrameworkCore.Relational/9.0.6": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.6",
+          "Microsoft.Extensions.Caching.Memory": "9.0.6",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.6",
+          "Microsoft.Extensions.Logging": "9.0.6"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "9.0.6.0",
+            "fileVersion": "9.0.625.26607"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Sqlite/9.0.6": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "9.0.6",
+          "Microsoft.Extensions.Caching.Memory": "9.0.6",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.6",
+          "Microsoft.Extensions.DependencyModel": "9.0.6",
+          "Microsoft.Extensions.Logging": "9.0.6",
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.10",
+          "SQLitePCLRaw.core": "2.1.10",
+          "System.Text.Json": "9.0.6"
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Sqlite.Core/9.0.6": {
+        "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "9.0.6",
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.6",
+          "Microsoft.Extensions.Caching.Memory": "9.0.6",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.6",
+          "Microsoft.Extensions.DependencyModel": "9.0.6",
+          "Microsoft.Extensions.Logging": "9.0.6",
+          "SQLitePCLRaw.core": "2.1.10",
+          "System.Text.Json": "9.0.6"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {
+            "assemblyVersion": "9.0.6.0",
+            "fileVersion": "9.0.625.26607"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/9.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.6"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/9.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "9.0.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6",
+          "Microsoft.Extensions.Options": "9.0.6",
+          "Microsoft.Extensions.Primitives": "9.0.6"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/9.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.6"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/9.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.6"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.6": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/9.0.6": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "9.0.0.6",
+            "fileVersion": "9.0.625.26613"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/9.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6",
+          "Microsoft.Extensions.Options": "9.0.6"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/9.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.6"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/9.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.6",
+          "Microsoft.Extensions.Primitives": "9.0.6"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/9.0.6": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          }
+        }
+      },
+      "runtime.android-arm.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libSystem.IO.Ports.Native.so": {
+            "rid": "android-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.android-arm64.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/android-arm64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "android-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.android-x64.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/android-x64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "android-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.android-x86.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/android-x86/native/libSystem.IO.Ports.Native.so": {
+            "rid": "android-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-arm.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-arm64.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-bionic-arm64.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/linux-bionic-arm64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-bionic-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-bionic-x64.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/linux-bionic-x64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-bionic-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-musl-arm.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/linux-musl-arm/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-musl-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-musl-arm64.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/linux-musl-arm64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-musl-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-musl-x64.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/linux-musl-x64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-x64.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.maccatalyst-arm64.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/maccatalyst-arm64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "maccatalyst-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.maccatalyst-x64.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/maccatalyst-x64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "maccatalyst-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.native.System.IO.Ports/9.0.6": {
+        "dependencies": {
+          "runtime.android-arm.runtime.native.System.IO.Ports": "9.0.6",
+          "runtime.android-arm64.runtime.native.System.IO.Ports": "9.0.6",
+          "runtime.android-x64.runtime.native.System.IO.Ports": "9.0.6",
+          "runtime.android-x86.runtime.native.System.IO.Ports": "9.0.6",
+          "runtime.linux-arm.runtime.native.System.IO.Ports": "9.0.6",
+          "runtime.linux-arm64.runtime.native.System.IO.Ports": "9.0.6",
+          "runtime.linux-bionic-arm64.runtime.native.System.IO.Ports": "9.0.6",
+          "runtime.linux-bionic-x64.runtime.native.System.IO.Ports": "9.0.6",
+          "runtime.linux-musl-arm.runtime.native.System.IO.Ports": "9.0.6",
+          "runtime.linux-musl-arm64.runtime.native.System.IO.Ports": "9.0.6",
+          "runtime.linux-musl-x64.runtime.native.System.IO.Ports": "9.0.6",
+          "runtime.linux-x64.runtime.native.System.IO.Ports": "9.0.6",
+          "runtime.maccatalyst-arm64.runtime.native.System.IO.Ports": "9.0.6",
+          "runtime.maccatalyst-x64.runtime.native.System.IO.Ports": "9.0.6",
+          "runtime.osx-arm64.runtime.native.System.IO.Ports": "9.0.6",
+          "runtime.osx-x64.runtime.native.System.IO.Ports": "9.0.6"
+        }
+      },
+      "runtime.osx-arm64.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/osx-arm64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.osx-x64.runtime.native.System.IO.Ports/9.0.6": {
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.bundle_e_sqlite3/2.1.10": {
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.10",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.10"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "2.1.10.2445",
+            "fileVersion": "2.1.10.2445"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/2.1.10": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "2.1.10.2445",
+            "fileVersion": "2.1.10.2445"
+          }
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.10": {
+        "runtimeTargets": {
+          "runtimes/browser-wasm/nativeassets/net9.0/e_sqlite3.a": {
+            "rid": "browser-wasm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm/native/libe_sqlite3.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libe_sqlite3.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-armel/native/libe_sqlite3.so": {
+            "rid": "linux-armel",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-mips64/native/libe_sqlite3.so": {
+            "rid": "linux-mips64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-arm/native/libe_sqlite3.so": {
+            "rid": "linux-musl-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-arm64/native/libe_sqlite3.so": {
+            "rid": "linux-musl-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-s390x/native/libe_sqlite3.so": {
+            "rid": "linux-musl-s390x",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libe_sqlite3.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-ppc64le/native/libe_sqlite3.so": {
+            "rid": "linux-ppc64le",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-s390x/native/libe_sqlite3.so": {
+            "rid": "linux-s390x",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libe_sqlite3.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x86/native/libe_sqlite3.so": {
+            "rid": "linux-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib": {
+            "rid": "maccatalyst-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/maccatalyst-x64/native/libe_sqlite3.dylib": {
+            "rid": "maccatalyst-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libe_sqlite3.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libe_sqlite3.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm/native/e_sqlite3.dll": {
+            "rid": "win-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/e_sqlite3.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/e_sqlite3.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/e_sqlite3.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.10": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.10"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {
+            "assemblyVersion": "2.1.10.2445",
+            "fileVersion": "2.1.10.2445"
+          }
+        }
+      },
+      "System.IO.Ports/9.0.6": {
+        "dependencies": {
+          "runtime.native.System.IO.Ports": "9.0.6"
+        },
+        "runtime": {
+          "lib/net9.0/System.IO.Ports.dll": {
+            "assemblyVersion": "9.0.0.6",
+            "fileVersion": "9.0.625.26613"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.6",
+            "fileVersion": "9.0.625.26613"
+          },
+          "runtimes/win/lib/net9.0/System.IO.Ports.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.6",
+            "fileVersion": "9.0.625.26613"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {},
+      "System.Text.Json/9.0.6": {
+        "runtime": {
+          "lib/net9.0/System.Text.Json.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Logger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Data.Sqlite.Core/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3auiudiViGzj1TidUdjuDqtP3+f6PBk4xdw6r9sBaTtkYoGc3AZn0cP8LgYZaLRnJBqY5bXRLB+qhjoB+iATzA==",
+      "path": "microsoft.data.sqlite.core/9.0.6",
+      "hashPath": "microsoft.data.sqlite.core.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r5hzM6Bhw4X3z28l5vmsaCPjk9VsQP4zaaY01THh1SAYjgTMVadYIvpNkCfmrv/Klks6aIf2A9eY7cpGZab/hg==",
+      "path": "microsoft.entityframeworkcore/9.0.6",
+      "hashPath": "microsoft.entityframeworkcore.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7MkhPK8emb8hfOx/mFVvHuIHxQ+mH2YdlK4sFUXgsGlvR0A44vsmd2wcHavZOTTzaKhN+aFUVy3zmkztKmTo+A==",
+      "path": "microsoft.entityframeworkcore.abstractions/9.0.6",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Analyzers/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VKggHNQC5FCn3/vooaIM/4aEjGmrmWm78IrdRLz9lLV0Rm9bVHEr/jiWApDkU0U9ec2xGAilvQqJ5mMX7QC2cw==",
+      "path": "microsoft.entityframeworkcore.analyzers/9.0.6",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ht6OT17sYnO31Dx+hX72YHrc5kZt53g5napaw0FpyIekXCvb+gUVvufEG55Fa7taFm8ccy0Vzs+JVNR9NL0JlA==",
+      "path": "microsoft.entityframeworkcore.relational/9.0.6",
+      "hashPath": "microsoft.entityframeworkcore.relational.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Sqlite/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bVSdfFrqIo3ZeQfWYYfnVVanP1GWghkdw+MnEmZJz7jUwtdPQpBKHr0BW9dMizPamzU+SMA1Qu4nXuRTlKVAGQ==",
+      "path": "microsoft.entityframeworkcore.sqlite/9.0.6",
+      "hashPath": "microsoft.entityframeworkcore.sqlite.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Sqlite.Core/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xP+SvMDR/GZCDNXFw7z4WYbO2sYpECvht3+lqejg+Md8vLtURwTBvdsOUAnY4jBGmNFqHeh87hZSmUGmuxyqMA==",
+      "path": "microsoft.entityframeworkcore.sqlite.core/9.0.6",
+      "hashPath": "microsoft.entityframeworkcore.sqlite.core.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bL/xQsVNrdVkzjP5yjX4ndkQ03H3+Bk3qPpl+AMCEJR2RkfgAYmoQ/xXffPV7is64+QHShnhA12YAaFmNbfM+A==",
+      "path": "microsoft.extensions.caching.abstractions/9.0.6",
+      "hashPath": "microsoft.extensions.caching.abstractions.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qPW2d798tBPZcRmrlaBJqyChf2+0odDdE+0Lxvrr0ywkSNl1oNMK8AKrOfDwyXyjuLCv0ua7p6nrUExCeXhCcg==",
+      "path": "microsoft.extensions.caching.memory/9.0.6",
+      "hashPath": "microsoft.extensions.caching.memory.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3GgMIi2jP8g1fBW93Z9b9Unamc0SIsgyhiCmC91gq4loTixK9vQMuxxUsfJ1kRGwn+/FqLKwOHqmn0oYWn3Fvw==",
+      "path": "microsoft.extensions.configuration.abstractions/9.0.6",
+      "hashPath": "microsoft.extensions.configuration.abstractions.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vS65HMo5RS10DD543fknsyVDxihMcVxVn3/hNaILgBxWYnOLxWIeCIO9X0QFuCvPRNjClvXe9Aj8KaQNx7vFkQ==",
+      "path": "microsoft.extensions.dependencyinjection/9.0.6",
+      "hashPath": "microsoft.extensions.dependencyinjection.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0Zn6nR/6g+90MxskZyOOMPQvnPnrrGu6bytPwkV+azDcTtCSuQ1+GJUrg8Klmnrjk1i6zMpw2lXijl+tw7Q3kA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.6",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyModel/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-grVU1ixgMHp+kuhIgvEzhE73jXRY6XmxNBPWrotmbjB9AvJvkwHnIzm1JlOsPpyixFgnzreh/bFBMJAjveX+fQ==",
+      "path": "microsoft.extensions.dependencymodel/9.0.6",
+      "hashPath": "microsoft.extensions.dependencymodel.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XBzjitTFaQhF8EbJ645vblZezV1p52ePTxKHoVkRidHF11Xkjxg94qr0Rvp2qyxK2vBJ4OIZ41NB15YUyxTGMQ==",
+      "path": "microsoft.extensions.logging/9.0.6",
+      "hashPath": "microsoft.extensions.logging.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LFnyBNK7WtFmKdnHu3v0HOYQ8BcjYuy0jdC9pgCJ/rbLKoJEG9/dBzSKMEeeWDbDeoWS0TIxOC8a9CM5ufca3A==",
+      "path": "microsoft.extensions.logging.abstractions/9.0.6",
+      "hashPath": "microsoft.extensions.logging.abstractions.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wUPhNM1zsI58Dy10xRdF2+pnsisiUuETg5ZBncyAEEUm/CQ9Q1vmivyUWH8RDbAlqyixf2dJNQ2XZb7HsKUEQw==",
+      "path": "microsoft.extensions.options/9.0.6",
+      "hashPath": "microsoft.extensions.options.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BHniU24QV67qp1pJknqYSofAPYGmijGI8D+ci9yfw33iuFdyOeB9lWTg78ThyYLyQwZw3s0vZ36VMb0MqbUuLw==",
+      "path": "microsoft.extensions.primitives/9.0.6",
+      "hashPath": "microsoft.extensions.primitives.9.0.6.nupkg.sha512"
+    },
+    "runtime.android-arm.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S1Gu7KIiBM5Zfkve5iaVZUMPToGZ8fc13IMLNdyU20G9nq9LnKSN5e0xb/TFr4N6IqWkAxmTD4JkcWXdjdk33g==",
+      "path": "runtime.android-arm.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.android-arm.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.android-arm64.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B5GL3MQcQ4OI02Q3jXdiISS5N7ZI6LCHyDQTpfJTpzTdf4SDwTMMxrcpGaPSth6l7yVyAtJJbIhgdFDw3PmOhg==",
+      "path": "runtime.android-arm64.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.android-arm64.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.android-x64.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7Aq/6BqdFCShOlL+f7ltFCQkwo/YFzZ+wOmK8ObpGfzhxWp2Mg7H4DuMoqd1pO+ikdfbOcDm7cfdMmsUwgbKkQ==",
+      "path": "runtime.android-x64.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.android-x64.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.android-x86.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LG0iGAvkdSWD3WT+oZcozJFZKeINQ160n68YfnwVgtmFpMR2O3GIfuMrf9WJjfnZJb6pbaNnLGqOTpXVJTJa2Q==",
+      "path": "runtime.android-x86.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.android-x86.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.linux-arm.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RzAA2D77LRuYVTUXKG8wLRbbDF6BA+fHeBtsdar3ARj3cWmqscR3sb5QgROBKtDj1G2Idu3aj+5Bk3TYc+f4XA==",
+      "path": "runtime.linux-arm.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.linux-arm.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.linux-arm64.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a9pVVDsO76cdoGN3CYEgxTE54C5udq9hfOjPKVxyfwOk1N12w18VKL2a15deezFMqjGggaVyK0cFBj9qG7pqWw==",
+      "path": "runtime.linux-arm64.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.linux-arm64.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.linux-bionic-arm64.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kb8CZNgH0aWd8Ks6jS1F286SmVJ4FmJjiUdrQTvHu1aN1cWpfwLZ1qOARvFI3lbXE/geOzBIHDNWmQjyOAeUlg==",
+      "path": "runtime.linux-bionic-arm64.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.linux-bionic-arm64.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.linux-bionic-x64.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BCbWsWzSdv9ly9pR1JFY89an+8nc9yZtjAPPlcpH31UUP0AuI27rnrKzcZAuqFXlKy2M8EZVnjV0czSTFueqGA==",
+      "path": "runtime.linux-bionic-x64.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.linux-bionic-x64.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.linux-musl-arm.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eapJ2k/eeMK7Q/Mbticy5rgSb+qI884W9Wk6UTDnEdRpd0BvKbhgM845QEmk3vrxT6B8cCr4A8pRseZBdmk4WA==",
+      "path": "runtime.linux-musl-arm.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.linux-musl-arm.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.linux-musl-arm64.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+3S2ksd6iFNeyAxtCZ2dGlxXNGQsOgIgGiecu34++UnUTY9KFhkg8T69hyjEMg4+dRQXEWrU4+vP4AI3s5GlMw==",
+      "path": "runtime.linux-musl-arm64.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.linux-musl-arm64.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.linux-musl-x64.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fa+EbKuQ6W4EzdVRAA/6ffJ3C0eQ93D8bhmnFaVEHBkfDTKNUSZKhjLdYgubvMrSQlsQ8XLGw0Ld1UXMgGCj7w==",
+      "path": "runtime.linux-musl-x64.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.linux-musl-x64.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.linux-x64.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-POgI6/WVHtpxbqvfFqVybZckRbgFVp3nE0fOBpIQdKiZ9C3MPKKibyFNEBK81ZlgmtTEpJP0jMvLSuEbA/p95g==",
+      "path": "runtime.linux-x64.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.linux-x64.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.maccatalyst-arm64.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VMJ5KlYwc2OUPEXmuMetGdwU2IKCDH0mYPz+7G0e2psKJ6Q4JVq9VIOK/nnFJ9z0nbw7Cxu5m7nwh8p/ZPr/eA==",
+      "path": "runtime.maccatalyst-arm64.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.maccatalyst-arm64.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.maccatalyst-x64.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kbPhYFOoSo7l71lZo4RFx51Vj6BbQAL3QFn4duULbrpV1GEQX5ZrmBSpdxigcvDMit1i/+wDTyMll9t56i/knQ==",
+      "path": "runtime.maccatalyst-x64.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.maccatalyst-x64.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q8gHRVpOlTQSEqKtimf7s3lr8OaYaxXcrXjtF78k+6RogQ0BpEHnUgeBZBoQ53qSiztBAzkF22uPOHq+/+goOA==",
+      "path": "runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.osx-arm64.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a+KcHUMoNJG1Z9uvf28HDmT8jK5rm0ExTUdScsdP/ukU2KE7ah+vLxNbh4zCxzvGHsx+Z6bVpaWLjuSYNbqilQ==",
+      "path": "runtime.osx-arm64.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.osx-arm64.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "runtime.osx-x64.runtime.native.System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ogySJ/MVq9J/X1ugQOAA4dQfoJSUnZtIbPLr8t2tsaGkV7TBgWOnFInRXy1c20o79M6ARyus12UinDKsFaLkwA==",
+      "path": "runtime.osx-x64.runtime.native.system.io.ports/9.0.6",
+      "hashPath": "runtime.osx-x64.runtime.native.system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "SQLitePCLRaw.bundle_e_sqlite3/2.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UxWuisvZ3uVcVOLJQv7urM/JiQH+v3TmaJc1BLKl5Dxfm/nTzTUrqswCqg/INiYLi61AXnHo1M1JPmPqqLnAdg==",
+      "path": "sqlitepclraw.bundle_e_sqlite3/2.1.10",
+      "hashPath": "sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/2.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ii8JCbC7oiVclaE/mbDEK000EFIJ+ShRPwAvvV89GOZhQ+ZLtlnSWl6ksCNMKu/VGXA4Nfi2B7LhN/QFN9oBcw==",
+      "path": "sqlitepclraw.core/2.1.10",
+      "hashPath": "sqlitepclraw.core.2.1.10.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlite3/2.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mAr69tDbnf3QJpRy2nJz8Qdpebdil00fvycyByR58Cn9eARvR+UiG2Vzsp+4q1tV3ikwiYIjlXCQFc12GfebbA==",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.1.10",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512"
+    },
+    "SQLitePCLRaw.provider.e_sqlite3/2.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uZVTi02C1SxqzgT0HqTWatIbWGb40iIkfc3FpFCpE/r7g6K0PqzDUeefL6P6HPhDtc6BacN3yQysfzP7ks+wSQ==",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.1.10",
+      "hashPath": "sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512"
+    },
+    "System.IO.Ports/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D1nZmsZfUfKQ9/AqiAEafmnYijUoJvXtl0RWZ2P+q/Wq3gXgEtp+NzKTpabw2s0aiuPAsdx8SujQY06W2X4ucQ==",
+      "path": "system.io.ports/9.0.6",
+      "hashPath": "system.io.ports.9.0.6.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Text.Json/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h+ZtYTyTnTh5Ju6mHCKb3FPGx4ylJZgm9W7Y2psUnkhQRPMOIxX+TCN0ZgaR/+Yea+93XHWAaMzYTar1/EHIPg==",
+      "path": "system.text.json/9.0.6",
+      "hashPath": "system.text.json.9.0.6.nupkg.sha512"
+    }
+  }
+}
